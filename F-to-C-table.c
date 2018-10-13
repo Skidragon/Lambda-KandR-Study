@@ -11,9 +11,8 @@ int main(void)
 
     float fahr, celsius;
 
-    char degree_chr = 37;
     fahr = UPPER;
-    printf("  F\t   C\n");
+    printf("  °F\t  °C\n");
     printf("------------\n");
     while (fahr >= LOWER) {
         celsius = (5.0/9.0) * (fahr-32.0);
